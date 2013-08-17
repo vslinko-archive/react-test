@@ -1,0 +1,28 @@
+.radio_buttons {
+  overflow: hidden;
+  float: left;
+  margin: 10px;
+}
+
+.radio_buttons-value {
+  background: lightgray;
+  padding: 10px;
+  border: 1px solid black;
+  border-right-width: 0;
+  float: left;
+  cursor: pointer;
+}
+
+.radio_buttons-value--state-selected {
+  background-color: black;
+  color: white;
+}
+
+.radio_buttons-value:first-of-type {
+  border-radius: 10px 0 0 10px;
+}
+
+.radio_buttons-value:last-of-type {
+  border-right-width: 1px;
+  border-radius: 0 10px 10px 0;
+}
